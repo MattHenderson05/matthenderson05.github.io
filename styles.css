@@ -1,1 +1,39 @@
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    align-items: start;
+    padding-left: 100px;
+}
 
+    div.mycontainer div {
+        width: 300px;
+        float: left;
+        background-color: #FFF4A3;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10px;
+        word-wrap: break-word;
+    }
+
+h1 {
+    text-align: center;
+    background-color: #81D3DE;
+    font-size: 45px;
+    clear: both;
+}
+
+.about {
+    font-size: 30px;
+    padding-left: 170px;
+}
+
+.faceimg {
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
