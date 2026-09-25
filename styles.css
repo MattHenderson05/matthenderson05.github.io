@@ -1,19 +1,15 @@
 div.mycontainer {
     width: 100%;
-    overflow: auto;
+    height: auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 50px;
-    align-items: start;
-    justify-items: center;
+    grid-template-columns: 100%;
+    place-items: center;
 }
 
     div.mycontainer div {
-        width: 500px;
-        float: left;
+        width: 1500px;
         background-color: #FFF4A3;
         text-align: center;
-        display: inline-block;
         border: 1px solid black;
         padding: 10px;
         word-wrap: break-word;
@@ -31,6 +27,16 @@ h1 {
     background-color: #81D3DE;
     font-size: 45px;
     clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .about {
@@ -40,7 +46,15 @@ h1 {
 
 .faceimg {
     float: left;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
     margin-right: 20px;
     padding-bottom: 30px;
-    padding-left: 400px;
+    margin-left: 400px;
+}
+
+.img {
+    width: 640px;
+    height: 360px;
 }
